@@ -1,8 +1,10 @@
 def sum_of_many(numbers: list):
-    """
-    Calculates sum of given numbers
-    """
-    pass
+   def sum_of_many(numbers):
+    sum = 0   
+    for elm in numbers:
+        if isinstance (elm, int):
+            sum += elm
+    print (sum)
 
 
 def get_only_words(text: str):
